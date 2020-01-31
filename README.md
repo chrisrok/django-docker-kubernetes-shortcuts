@@ -27,6 +27,13 @@ for a django setup with docker for daily use.
 * create superuser: <br>
 ````docker-compose run --rm app sh -c "python manage.py createsuperuser"````
 
+## pytest & flake8
+
+* run tests: <br>
+````docker-compose run --rm app sh -c "pytest"````
+
+* check code-style: <br>
+````docker-compose run --rm app sh -c "flake8"````
 
 ## database
 
