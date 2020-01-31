@@ -38,10 +38,10 @@ for a django setup with docker for daily use.
 ## database
 
 * makemigrations: <br>
-```docker-compose run --rm app sh -c "python manage.py makemigrations```
+```docker-compose run --rm app sh -c "python manage.py makemigrations"```
 
 * migrate: <br>
-```docker-compose run --rm app sh -c "python manage.py migrate```
+```docker-compose run --rm app sh -c "python manage.py migrate"```
 
 ## pip-compile 
 
